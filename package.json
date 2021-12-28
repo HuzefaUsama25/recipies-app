@@ -1,0 +1,24 @@
+{
+  "name": "recipies-app",
+  "version": "1.0.0",
+  "description": "get recipies for any dish",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "runserver": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huzefausama25",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "validation": "^0.0.1"
+  }
+}
