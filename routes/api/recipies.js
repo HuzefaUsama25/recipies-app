@@ -13,13 +13,13 @@ router.get('/', (req, res) => {
         .catch(err => res.status(404).json({ norecipiesfound: 'No recipie found' }));
 });
 
-/*
-router.get('/:id', (req, res) => {
+
+router.get('/id/:id', (req, res) => {
     Recipie.findById(req.params.id)
         .then(recipie => res.json(recipie))
         .catch(err => res.status(404).json({ norecipiesfound: 'No recipies found' }));
 });
-*/
+
 
 
 
