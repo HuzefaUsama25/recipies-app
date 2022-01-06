@@ -21,9 +21,6 @@ router.get('/id/:id', (req, res) => {
 });
 
 
-
-
-
 router.get('/q=:title', (req, res) => {
     const query = { $text: { $search: req.params.title } }
     Recipie.find(query)
